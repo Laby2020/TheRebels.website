@@ -26,39 +26,43 @@ body { background-color: light-gray; }
   <a href="#band" class="w3-button w3-bar-item">Band</a>
   <a href="#tour" class="w3-button w3-bar-item">Tour</a>
   <a href="#contact" class="w3-button w3-bar-item">Contact</a>
-</nav>
+  </ul>
+
+ 
 
 <!-- Slide Show -->
-<div class="w3-center">More Information!</h2>
-
+  <div class="w3-center"><h2>More Information!</h2>
+ 
 <div class="w3-content" style="max-width:400px">
-  <div class="myslides w3-container w3-gray">
+   <div class="myslides w3-container w3-gray">
     <h1><b>We hope you enjoy the show!</b></h1>
-    <h1><i>All of the money we make is given to charites</i></h1>
-    </div>
+     <h1><i>All of the money we make is given to charites</i></h1>
+     </div>
     
-    <div class="mySlides w3-container w3-xlarge w3-blue w3-card-4">
+   
+     <div class="mySlides w3-container w3-xlarge w3-blue w3-card-4">
     <p><span class="w3-tag w3-yellow">Limited Time!</span>
     <p>Free autographs</p>
-    <p>For the first 50 costumers! Hurry!!</p>
-    </div>
-    
+    <p>For the first 50 costumers! Hurry!!</p> 
+   
     <script>
     var slideIndex= 0;
     carousel();
     
-    function carousel() {
+   
+   
+    function carousel() 
+   
       var i;
       var x=
      document.getElementsByClassName("mySlides");
      for (i= 0; i < x.length; i++) { x[i].style.display = "none"; }
     slideIndex++;
     if (slideIndex > x.length)
-   {slideIndex= 1}
+    {slideIndex= 1}
      x[slideIndex - 1].style.display = "block";
-     setTimeout(carousel, 2000);
-   }
-   </script>
+     setTimeout(carousel, 2000);}
+    </script>
 
 <!-- Band Description -->
 <section class="w3-container w3-center w3-content" style="max-width:600px">
@@ -74,6 +78,7 @@ body { background-color: light-gray; }
     <P>(No image available)<p>
     <p>A natural born leader, the head singer of the band.</p>
   </article>
+    
   <article class="w3-third">
     <p>Terence</p>
     <p>(No image available)<p>
@@ -83,8 +88,7 @@ body { background-color: light-gray; }
     <p>Will</p>
     <p>(No picture available)<p>
     <p>Will is the funniest and the shortest member of the group, he stands around to be at least 5ft.</p>
-  </article>
-</section>
+
 
 <caption>Order Your Tickets Here!<p>
 

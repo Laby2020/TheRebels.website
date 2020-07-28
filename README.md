@@ -1,4 +1,4 @@
-<html>
+
 <head>
 <style>
 body { background-color: light-gray; }
@@ -77,13 +77,13 @@ body { background-color: light-gray; }
     <p>Jesse</p>
     <P>(No image available)<p>
     <p>A natural born leader, the head singer of the band.</p>
-  </article>
+  
     
   <article class="w3-third">
     <p>Terence</p>
     <p>(No image available)<p>
     <p>The party animal, we're pretty sure he's more animal than man.</p>
-  </article>
+ 
   <article class="w3-third">
     <p>Will</p>
     <p>(No picture available)<p>
@@ -117,7 +117,7 @@ body { background-color: light-gray; }
 
 <p><input type="submit" value="Enjoy the concert!">
 <input type="reset"></p>
-</form>
+
 
 <style>
 body { background-color: light-gray; }
